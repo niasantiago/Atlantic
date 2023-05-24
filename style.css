@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  font-family: "Italiana", serif;
+  font-family: "Urbanist", sans-serif;
+}
+header {
+  border: gray;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav section {
+  width: 100%;
+  display: inline;
+  border: gray;
+  background: white;
+}
+
+nav ul {
+  list-style: none;
+  float: left;
+}
+
+.Burger {
+  display: none;
+}
+
+.nav img {
+  margin: 0;
+}
+header .left {
+  width: 33.3333%;
+  float: left;
+  margin-left: 1%;
+}
+.list {
+  margin-left: 1%;
+}
+.logo {
+  width: 33.3333%;
+  align-items: center;
+  float: left;
+  align-content: center;
+  margin-left: 10%;
+}
+
+header .right {
+  float: right;
+  width: 20%;
+}
+button {
+  background: rgb(195, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 65%;
+  padding: 10px;
+  margin-left: 1%;
+  float: right;
+  height: 30px;
+}
+
+.right a {
+  text-decoration: none;
+  color: black;
+}
+
+.first {
+  width: 100%;
+  height: 500px;
+  border: gray;
+  display: inline-block;
+  background: white;
+}
+.first .left {
+  width: 20%;
+  border: gray;
+  height: 500px;
+  float: left;
+}
+.left .a {
+  width: 100%;
+  height: 250px;
+  font-size: 11px;
+} 
+.left .a p {
+    font-family: italiana;
+    font-weight: 900;
+}
+
+.topimg img {
+  height: 186px;
+  margin: auto;
+  display: block;
+}
+.left .b {
+  width: 100%;
+  height: 250px;
+
+  font-size: 11px;
+} 
+.left .b p {
+    font-family: 'Italiana';
+    font-weight: 900;
+}
+
+
+.bottomimg img {
+  margin: auto;
+  display: block;
+  height: 186px; 
+}
+
+.first .middle {
+  width: 60%;
+  height: 500px;
+  float: left;
+  text-align: center;
+} 
+.first .middle p {
+    font-family: 'Italiana';
+    font-weight: 900;
+}
+
+
+.middleimg img {
+    height: 370px; 
+}
+.first .right {
+  width: 20%;
+
+  height: 500px;
+  float: left;
+  font-size: 9px;
+}
+.firstimg img {
+  width:30%; 
+  height:70px;
+  float:left;
+  margin-bottom: 15px;
+}
+
+.right .a {
+    width:50%;
+    float:left;
+    height:40px;
+}
+.secondimg img {
+  width:30%;
+  height: 70px;
+  float:left;
+  margin-bottom: 15px;
+
+} 
+.right .b {
+    width:50%;
+    float:left;
+     height:40px;
+}
+.thirdimg img {
+  width:30%;
+  height: 70px;
+  float:left;
+  margin-bottom: 15px;
+
+} 
+.right .c {
+    width:50%;
+    float:left;
+     height:40px;
+}
+.fourthimg img {
+ width:30%;
+  height: 70px;
+  float:left;
+  margin-bottom: 15px;
+
+} 
+.right .d {
+    width:50%; 
+    float:left; 
+     height:40px; 
+}
+
+.second .a {
+  width: 25%;
+  border: gray;
+  height: 300px;
+  float: left;
+}
+
+.aimg img {
+ height: 112px
+ 
+}
+.second .b {
+  width: 25%;
+  border: gray;
+  height: 300px;
+  float: left;
+}
+.bimg img {
+height: 112px
+}
+
+.second .c {
+  width: 25%;
+  border: gray;
+  height: 300px;
+  float: left;
+}
+.cimg img {
+height: 112px
+}
+
+.second .d {
+  width: 25%;
+  border: gray;
+  height: 300px;
+  float: left;
+}
+
+.dimg img {
+height: 112px 
+}
+
+/* @media screen and (max-width:350px) {
+    .Burger {
+        display:block; 
+        text-align: center; 
+    }  
+    .first img {
+        display:none; 
+    }
+    .first {
+        font-size:9%; 
+    }
+    footer {
+        display:none;
+    } 
+
+    .logo {
+        display:none;
+    } 
+    .hide {
+        display:none;
+    } 
+    .button {
+    display:none; 
+    } 
+    .bottom {
+        display:none; 
+        font-size: 5%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:650px) { 
+    .Burger {
+        display:block; 
+        text-align: center;
+       
+    }
+    .second img {
+        display:none; 
+    } 
+    .logo {
+        display:none;
+    }
+    .hide {
+        display:none;
+    }
+    .button {
+        display:none; 
+    }
+    .bottom {
+        display:none; 
+    } 
+    .first img {
+        display:none; 
+        font-size:9%; 
+    }
+}  */
+
+@media screen and (max-width: 800px) {
+  .Burger {
+    display: block;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+  .logo {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+}
